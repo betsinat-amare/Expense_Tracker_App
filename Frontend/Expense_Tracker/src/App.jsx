@@ -1,4 +1,5 @@
 import React from "react";
+import { Navigate } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/Auth/Login";
 import SignUp from "./pages/Auth/SignUp";

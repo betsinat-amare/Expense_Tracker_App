@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Input from "../../components/inputs/input";
 import AuthLayout from '../../components/layouts/AuthLayout'
 import { useNavigate }  from 'react-router-dom';
 
@@ -26,6 +27,14 @@ const handleLogin = async (e) => {}
         label="Email Address"
         placeholder="john@example.com"
         type="text"
+        />
+
+        <Input
+        value={password}
+        onChange={({ target }) =>setPassword(target.value)}
+        label="password"
+        placeholder="password"
+        type="password"
         />
         </form>
       </div>

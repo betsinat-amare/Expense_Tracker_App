@@ -1,5 +1,5 @@
 import React from 'react'
-import CARD_2 from "../../assets/card_2.png";
+import card2 from "../../assets/images/card2.png";
 
 const AuthLayout = ({children}) => {
   return (
